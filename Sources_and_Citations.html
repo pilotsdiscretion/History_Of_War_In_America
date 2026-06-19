@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sources &amp; Citations — "History of War in America 1775–2026"</title>
+<style>
+  :root{
+    --ink:#15181f; --muted:#586072; --line:#e3e7ee; --bg:#f5f7fa; --card:#ffffff;
+    --accent:#244b8f; --accent-bg:#eaf1fb; --gold:#8a6d1f; --green:#1f7a48; --gray:#5b6573;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:Georgia,"Times New Roman",serif; color:var(--ink); background:var(--bg);
+    margin:0; line-height:1.6; font-size:16.5px;}
+  .wrap{max-width:1000px; margin:0 auto; padding:34px 24px 90px;}
+  .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header.masthead{border-bottom:3px double var(--ink); padding-bottom:22px; margin-bottom:10px;}
+  .kicker{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:700;}
+  h1{font-size:32px; line-height:1.18; margin:10px 0 8px; letter-spacing:-.01em;}
+  h2{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-size:21px; margin:46px 0 6px; padding:14px 0 0; border-top:2px solid var(--ink);}
+  h2 .num{color:var(--accent); font-weight:800; margin-right:8px;}
+  h3{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; font-size:15.5px; color:var(--muted); margin:22px 0 4px; text-transform:uppercase; letter-spacing:.05em;}
+  p{margin:10px 0;}
+  .sub{color:var(--muted); font-size:16px; font-style:italic;}
+  .meta{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    display:flex; flex-wrap:wrap; gap:18px; margin:16px 0 0; font-size:13px; color:var(--muted);}
+  .meta b{color:var(--ink);}
+  .intro{background:var(--accent-bg); border-left:4px solid var(--accent); padding:16px 20px; border-radius:0 8px 8px 0; margin:18px 0;}
+  .toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px 22px; margin:18px 0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; font-size:14px;}
+  .toc ul{columns:2; column-gap:34px; margin:6px 0 0; padding-left:18px;}
+  .toc a{color:var(--accent); text-decoration:none;} .toc a:hover{text-decoration:underline;}
+  .toc li{margin:5px 0; break-inside:avoid;}
+  /* citation card */
+  .cite{background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent);
+    border-radius:8px; padding:15px 18px; margin:14px 0; box-shadow:0 1px 2px rgba(20,25,40,.03);}
+  .cite .org{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; font-weight:700; font-size:15.5px;}
+  .cite .title{font-style:italic; margin:4px 0 8px; color:#2a2f3a;}
+  .cite dl{display:grid; grid-template-columns:140px 1fr; gap:3px 14px; margin:8px 0 6px; font-size:14px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+  .cite dt{color:var(--muted); font-weight:600;}
+  .cite dd{margin:0;}
+  .cite a.url{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; font-size:12.8px;
+    word-break:break-all; color:var(--accent); text-decoration:none; display:inline-block; margin-top:4px;}
+  .cite a.url:hover{text-decoration:underline;}
+  .tag{display:inline-block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-size:10.5px; font-weight:700; letter-spacing:.04em; padding:2px 8px; border-radius:20px; margin-left:8px; vertical-align:middle;}
+  .t-fed{background:#e7f0ff; color:#244b8f;}      /* federal / government */
+  .t-peer{background:#e8f6ec; color:#1f7a48;}     /* peer-reviewed / academic */
+  .t-org{background:#f3eddb; color:#8a6d1f;}       /* research org / NGO */
+  .t-ind{background:#f1e9f7; color:#6a3f9a;}       /* industry / corporate financials */
+  table.auth{width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; background:var(--card);
+    border:1px solid var(--line); border-radius:10px; overflow:hidden;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+  table.auth th,table.auth td{text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top;}
+  table.auth th{background:#eef2f8; font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted);}
+  table.auth tr:last-child td{border-bottom:none;}
+  a.up{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; font-size:12px; color:var(--muted); text-decoration:none; float:right; font-weight:600;}
+  footer{margin-top:54px; border-top:2px solid var(--ink); padding-top:18px; font-size:13.5px; color:var(--muted);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+  .leg{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; font-size:12.5px; display:flex; flex-wrap:wrap; gap:14px; margin-top:8px;}
+  @media print{ body{background:#fff;} .cite,.toc,table.auth{box-shadow:none;} a.url{color:#244b8f;} a.up{display:none;} }
+  @media (max-width:640px){ .toc ul{columns:1;} .cite dl{grid-template-columns:1fr;} .cite dt{margin-top:6px;} h1{font-size:25px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker">Source Dossier &middot; Primary-Source Documentation</div>
+  <h1>Sources &amp; Citations</h1>
+  <p class="sub">Authoritative references backing every figure in <span style="font-style:normal">&ldquo;History of War in America From 1775&ndash;2025.&rdquo;</span></p>
+  <div class="meta">
+    <span><b>Compiled:</b> June 16, 2026</span>
+    <span><b>Coverage:</b> 40+ conflicts, conscription, war powers &amp; congressional votes, drones, and war contractors</span>
+    <span><b>Basis:</b> DoD/DMDC, VA, CRS, OMB/CBO, Congress.gov roll-calls, SEC/EDGAR &amp; academic histories</span>
+  </div>
+</header>
+
+<div class="intro">
+  <p style="margin-top:0"><b>Purpose.</b> This dossier documents the primary source behind each figure in the dashboard, so that any number can be traced to a responsible authority. Every entry lists the <b>organization</b> (and why it is authoritative), the exact <b>dataset, report, or filing</b>, the <b>author(s)</b>, the <b>date</b>, a <b>working link</b>, and <b>which numbers it supports</b>.</p>
+  <p style="margin-bottom:0"><b>On war figures.</b> Casualty, cost, and munitions totals are frequently <b>estimates that differ across sources</b>, especially for enemy and civilian dead, irregular conflicts, and the 18th&ndash;19th centuries; where they diverge we give a range and a data note. Contractor financials are drawn from SEC filings, annual reports, and audited government data; stock prices are <b>split-adjusted</b>. Source <i>type</i> is color-tagged:
+  <span class="leg">
+    <span><span class="tag t-fed">GOVERNMENT</span> U.S. federal / military statistics &amp; records</span>
+    <span><span class="tag t-peer">PEER-REVIEWED</span> academic history / journal</span>
+    <span><span class="tag t-org">RESEARCH ORG</span> nonpartisan institute / NGO</span>
+    <span><span class="tag t-ind">INDUSTRY</span> corporate / financial-market data</span>
+  </span></p>
+</div>
+
+<h2><span class="num">&sect;</span>Primary authorities at a glance</h2>
+<p>Most figures rest on a U.S. government record of war casualties, costs, and legislation, or on audited corporate financial filings. These are the standard references in scholarship, congressional testimony, and reporting; U.S. government data is in the public domain.</p>
+<table class="auth">
+<thead><tr><th style="width:28%">Authority</th><th style="width:34%">Record of</th><th>Basis of authority</th></tr></thead>
+<tbody>
+<tr><td><b>DoD Defense Casualty Analysis System (DCAS / DMDC)</b></td><td>U.S. military deaths &amp; wounded, WWI–present</td><td>The Defense Manpower Data Center is the DoD system of record for U.S. casualties by conflict.</td></tr>
+<tr><td><b>Dept. of Veterans Affairs — "America's Wars"</b></td><td>Deaths, wounded &amp; service totals across all U.S. wars</td><td>VA's standard fact sheet compiling deaths/wounded for every major U.S. conflict from the Revolution onward.</td></tr>
+<tr><td><b>Congressional Research Service (CRS)</b></td><td>Casualty &amp; cost compilations; war-powers law</td><td>Congress's nonpartisan research arm; "American War and Military Operations Casualties" and "Costs of Major U.S. Wars."</td></tr>
+<tr><td><b>OMB / CBO / U.S. Treasury</b></td><td>War costs, appropriations, national debt</td><td>The federal budget and debt authorities; basis for nominal and inflation-adjusted war-cost series.</td></tr>
+<tr><td><b>Bureau of Labor Statistics (CPI) &amp; MeasuringWorth</b></td><td>Inflation adjustment of historical dollar costs</td><td>CPI-U is the official U.S. inflation measure; MeasuringWorth provides long-run pre-1913 deflators.</td></tr>
+<tr><td><b>Congress.gov / Senate.gov / GovTrack</b></td><td>Declarations of war, AUMFs, roll-call votes</td><td>Official records of legislation and recorded House/Senate votes.</td></tr>
+<tr><td><b>SEC EDGAR &amp; company annual reports (10-K)</b></td><td>Contractor revenue, profit, market capitalization</td><td>Audited corporate disclosures; the authoritative basis for defense-contractor financials.</td></tr>
+<tr><td><b>Watson Institute, Brown Univ. — "Costs of War"</b></td><td>Post-9/11 war costs, deaths &amp; contractor spending</td><td>The leading academic accounting of the human and budgetary costs of the post-2001 wars.</td></tr>
+<tr><td><b>SIPRI</b></td><td>Arms production &amp; military expenditure</td><td>Stockholm International Peace Research Institute; standard database for the global arms industry.</td></tr>
+<tr><td><b>National Archives, Army Center of Military History, Naval History &amp; Heritage Command</b></td><td>Pre-WWI casualties, munitions, campaign records</td><td>Official U.S. military historical authorities for early-republic and 19th-century conflicts.</td></tr>
+<tr><td><b>Academic histories &amp; standard reference works</b></td><td>Enemy/civilian casualties; contested estimates</td><td>Peer-reviewed monographs and encyclopedias used where no single government figure exists.</td></tr>
+</tbody>
+</table>
+
+<h2><span class="num">&sect;</span>Contents</h2>
+<div class="toc sans">
+<ul>
+  <li><a href="#c1">1. Overview &amp; cross-war totals</a></li>
+  <li><a href="#c2">2. Revolutionary War (1775–83)</a></li>
+  <li><a href="#c3">3. Northwest Indian War (1785–95)</a></li>
+  <li><a href="#c4">4. Quasi-War (1798–1800)</a></li>
+  <li><a href="#c5">5. First Barbary War (1801–05)</a></li>
+  <li><a href="#c6">6. War of 1812 (1812–15)</a></li>
+  <li><a href="#c7">7. Second Barbary War (1815)</a></li>
+  <li><a href="#c8">8. Seminole Wars (1817–58)</a></li>
+  <li><a href="#c9">9. Black Hawk War (1832)</a></li>
+  <li><a href="#c10">10. Mexican–American War (1846–48)</a></li>
+  <li><a href="#c11">11. American Indian / Plains Wars (1811–1924)</a></li>
+  <li><a href="#c12">12. American Civil War (1861–65)</a></li>
+  <li><a href="#c13">13. Spanish–American War (1898)</a></li>
+  <li><a href="#c14">14. Philippine–American War (1899–1902)</a></li>
+  <li><a href="#c15">15. Boxer Rebellion (1899–1901)</a></li>
+  <li><a href="#c16">16. Banana Wars (1898–1934)</a></li>
+  <li><a href="#c17">17. Mexican Border War (1910–19)</a></li>
+  <li><a href="#c18">18. World War I (1917–18)</a></li>
+  <li><a href="#c19">19. World War II (1941–45)</a></li>
+  <li><a href="#c20">20. Korean War (1950–53)</a></li>
+  <li><a href="#c21">21. Lebanon Crisis (1958)</a></li>
+  <li><a href="#c22">22. Bay of Pigs (1961)</a></li>
+  <li><a href="#c23">23. Vietnam War (1955–75)</a></li>
+  <li><a href="#c24">24. Dominican Intervention (1965–66)</a></li>
+  <li><a href="#c25">25. Lebanon (1982–84)</a></li>
+  <li><a href="#c26">26. Grenada (1983)</a></li>
+  <li><a href="#c27">27. Libya: El Dorado Canyon (1986)</a></li>
+  <li><a href="#c28">28. Panama: Just Cause (1989–90)</a></li>
+  <li><a href="#c29">29. Gulf War (1990–91)</a></li>
+  <li><a href="#c30">30. Somalia (1992–95)</a></li>
+  <li><a href="#c31">31. Bosnia (1992–95)</a></li>
+  <li><a href="#c32">32. Haiti (1994–95)</a></li>
+  <li><a href="#c33">33. Kosovo (1999)</a></li>
+  <li><a href="#c34">34. Afghanistan War (2001–21)</a></li>
+  <li><a href="#c35">35. Iraq War (2003–11)</a></li>
+  <li><a href="#c36">36. Libya Intervention (2011)</a></li>
+  <li><a href="#c37">37. War Against ISIS (2014–present)</a></li>
+  <li><a href="#c38">38. Conscription &amp; the Draft</a></li>
+  <li><a href="#c39">39. War Powers &amp; Authorizations</a></li>
+  <li><a href="#c40">40. Drones &amp; UAVs</a></li>
+  <li><a href="#c41">41. Conclusion</a></li>
+  <li><a href="#c42">42. U.S.–Iran Conflict &amp; Shadow War</a></li>
+  <li><a href="#c43">43. Ukraine (U.S. proxy war)</a></li>
+</ul>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════════════
+     CITATION SECTIONS (#c1 … #c41) ARE INSERTED BELOW THIS MARKER
+     ════════════════════════════════════════════════════════════════════ -->
+
+<h2 id="c1"><span class="num">1.</span>Overview &amp; cross-war totals <a class="up" href="#c1">&uarr;</a></h2>
+<div class="cite">
+  <div class="org">U.S. Dept. of Veterans Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" fact sheet (deaths, wounded &amp; service totals for every major U.S. war)</div>
+  <dl>
+    <dt>Author</dt><dd>Institutional — VA Office of Public Affairs.</dd>
+    <dt>Backs</dt><dd>Battle deaths, other deaths, and wounded by war used throughout the dashboard's totals.</dd>
+  </dl>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a>
+</div>
+<div class="cite">
+  <div class="org">DoD — Defense Casualty Analysis System (DCAS / DMDC) <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Conflict casualties (WWI–present): deaths, wounded by conflict</div>
+  <dl><dt>Backs</dt><dd>Korea, Vietnam, Gulf, Afghanistan, Iraq death &amp; wounded figures.</dd></dl>
+  <a class="url" href="https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties">https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties</a>
+</div>
+<div class="cite">
+  <div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"Costs of Major U.S. Wars" (RS22926), Stephen Daggett</div>
+  <dl><dt>Date</dt><dd>2010.</dd><dt>Backs</dt><dd>Constant-FY2011-dollar military cost of each major war (the cost chart).</dd></dl>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a>
+</div>
+<div class="cite">
+  <div class="org">Watson Institute, Brown University — "Costs of War" <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">Budgetary costs &amp; human costs of the post-9/11 wars ($8 trillion; ~900,000 direct deaths)</div>
+  <dl><dt>Date</dt><dd>Sept. 2021 (and ongoing updates).</dd><dt>Backs</dt><dd>The $8T post-9/11 total and direct-death figures.</dd></dl>
+  <a class="url" href="https://watson.brown.edu/costsofwar/figures">https://watson.brown.edu/costsofwar/figures</a>
+</div>
+<div class="cite">
+  <div class="org">Macrotrends &amp; CompaniesMarketCap <span class="tag t-ind">INDUSTRY</span></div>
+  <div class="title">Market capitalization of leading defense contractors (2026)</div>
+  <dl><dt>Backs</dt><dd>RTX, Boeing, Lockheed Martin, General Dynamics, Northrop Grumman, L3Harris, Halliburton market caps. Derived from SEC filings; values fluctuate daily.</dd></dl>
+  <a class="url" href="https://www.macrotrends.net/stocks/research">https://www.macrotrends.net/stocks/research</a>
+  <a class="url" href="https://companiesmarketcap.com/">https://companiesmarketcap.com/</a>
+</div>
+
+<h2 id="c2"><span class="num">2.</span>Revolutionary War (1775–83) <a class="up" href="#c2">&uarr;</a></h2>
+<div class="cite">
+  <div class="org">U.S. Dept. of Veterans Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" — Revolutionary War (battle deaths 4,435; wounded 6,188)</div>
+  <dl><dt>Backs</dt><dd>Confirmed U.S. battle deaths &amp; wounded.</dd></dl>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a>
+</div>
+<div class="cite">
+  <div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The American Revolution — forces, campaigns &amp; logistics</div>
+  <dl><dt>Backs</dt><dd>Continental Army strength, total served, French alliance, Springfield Armory.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a>
+</div>
+<div class="cite">
+  <div class="org">Standard histories &amp; reference works <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">Total deaths incl. disease &amp; British prison-ship mortality; Crown/Hessian losses; war finance (Robert Morris, Hortalez et Cie)</div>
+  <dl><dt>Note</dt><dd>Total-death and Crown-loss figures are scholarly estimates and vary by source.</dd></dl>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">CRS RS22926 (constant-dollar cost)</a>
+</div>
+
+<h2 id="c3"><span class="num">3.</span>Northwest Indian War (1785–95) <a class="up" href="#c3">&uarr;</a></h2>
+<div class="cite">
+  <div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">St. Clair's Defeat, Harmar's Defeat, Fallen Timbers; the Legion of the United States</div>
+  <dl><dt>Backs</dt><dd>U.S. killed by battle; the army's reform after 1791.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a>
+</div>
+<div class="cite">
+  <div class="org">Standard histories <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">William Duer's army contracts &amp; the Panic of 1792; supply failures at St. Clair's Defeat</div>
+  <dl><dt>Note</dt><dd>Early-frontier casualty totals are uncertain.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a>
+</div>
+
+<h2 id="c4"><span class="num">4.</span>Quasi-War (1798–1800) <a class="up" href="#c4">&uarr;</a></h2>
+<div class="cite">
+  <div class="org">Naval History &amp; Heritage Command <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Quasi-War with France — ship actions, captures, founding of the Navy Dept.</div>
+  <dl><dt>Backs</dt><dd>French vessels captured (~85), U.S. losses, subscription frigates.</dd></dl>
+  <a class="url" href="https://www.history.navy.mil/">https://www.history.navy.mil/</a>
+</div>
+
+<h2 id="c5"><span class="num">5.</span>First Barbary War (1801–05) <a class="up" href="#c5">&uarr;</a></h2>
+<div class="cite">
+  <div class="org">U.S. State Dept. — Office of the Historian <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"The Barbary Wars, 1801–1805 and 1815–1816"</div>
+  <dl><dt>Backs</dt><dd>Tribute payments, casus belli, treaty outcome.</dd></dl>
+  <a class="url" href="https://history.state.gov/milestones/1801-1829/barbary-wars">https://history.state.gov/milestones/1801-1829/barbary-wars</a>
+</div>
+<div class="cite">
+  <div class="org">Naval History &amp; Heritage Command <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">USS <i>Philadelphia</i> capture &amp; burning; Battle of Derna</div>
+  <dl><dt>Note</dt><dd>Tribute/ransom amounts are approximate and vary by source.</dd></dl>
+  <a class="url" href="https://www.history.navy.mil/">https://www.history.navy.mil/</a>
+</div>
+
+<h2 id="c6"><span class="num">6.</span>War of 1812 (1812–15) <a class="up" href="#c6">&uarr;</a></h2>
+<div class="cite">
+  <div class="org">U.S. Dept. of Veterans Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" — War of 1812 (battle deaths 2,260; wounded 4,505)</div>
+  <dl><dt>Backs</dt><dd>U.S. battle deaths &amp; wounded.</dd></dl>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a>
+</div>
+<div class="cite">
+  <div class="org">Library of Congress — "A Century of Lawmaking" (Annals of Congress) <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">House &amp; Senate votes on the Declaration of War, June 1812 (House 79–49; Senate 19–13)</div>
+  <dl><dt>Backs</dt><dd>The declaration-of-war roll-call tallies.</dd></dl>
+  <a class="url" href="https://www.loc.gov/collections/century-of-lawmaking/">https://www.loc.gov/collections/century-of-lawmaking/</a>
+</div>
+<div class="cite">
+  <div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"Costs of Major U.S. Wars" (RS22926) — War of 1812 cost</div>
+  <dl><dt>Backs</dt><dd>~$1.6B constant-FY2011-dollar military cost.</dd></dl>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a>
+</div>
+
+<h2 id="c7"><span class="num">7.</span>Second Barbary War (1815) <a class="up" href="#c7">&uarr;</a></h2>
+<div class="cite">
+  <div class="org">U.S. State Dept. — Office of the Historian &amp; Naval History &amp; Heritage Command <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The 1815 Algerine War — Decatur's squadron; end of tribute</div>
+  <dl><dt>Backs</dt><dd>Captures, congressional authorization (March 1815), treaty.</dd></dl>
+  <a class="url" href="https://history.state.gov/milestones/1801-1829/barbary-wars">https://history.state.gov/milestones/1801-1829/barbary-wars</a>
+</div>
+
+<h2 id="c8"><span class="num">8.</span>Seminole Wars (1817–58) <a class="up" href="#c8">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Seminole Wars — campaigns, casualties &amp; cost of the Second Seminole War</div>
+  <dl><dt>Backs</dt><dd>~1,500 U.S. soldier deaths (mostly disease); ~$30–40M cost; removal totals.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+<div class="cite"><div class="org">National Park Service / standard histories <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">Osceola's capture under flag of truce; Seminole removal</div>
+  <dl><dt>Note</dt><dd>Death &amp; removal figures are estimates and vary by source.</dd></dl>
+  <a class="url" href="https://www.nps.gov/">https://www.nps.gov/</a></div>
+
+<h2 id="c9"><span class="num">9.</span>Black Hawk War (1832) <a class="up" href="#c9">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History &amp; State Historical Societies <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Black Hawk War; the Bad Axe Massacre</div>
+  <dl><dt>Backs</dt><dd>~70 U.S. dead; ~450–600 Sauk &amp; Fox dead (estimates).</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c10"><span class="num">10.</span>Mexican–American War (1846–48) <a class="up" href="#c10">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Dept. of Veterans Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" — Mexican War (battle 1,733; other 11,550; wounded 4,152)</div>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a></div>
+<div class="cite"><div class="org">Library of Congress — Congressional Globe <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Declaration of war vote, May 1846 (House 174–14; Senate 40–2)</div>
+  <a class="url" href="https://www.loc.gov/collections/century-of-lawmaking/">https://www.loc.gov/collections/century-of-lawmaking/</a></div>
+<div class="cite"><div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"Costs of Major U.S. Wars" (RS22926) — Mexican War cost (~$2.4B, 2011$)</div>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a></div>
+
+<h2 id="c11"><span class="num">11.</span>American Indian / Plains Wars (1811–1924) <a class="up" href="#c11">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Winning the West: the Army &amp; the Indian Wars; Little Bighorn &amp; campaign casualties</div>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+<div class="cite"><div class="org">National Park Service &amp; academic histories <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">Sand Creek, Bear River, Wounded Knee massacres; Trail of Tears</div>
+  <dl><dt>Note</dt><dd>Native death tolls are estimates and contested; massacre figures shown are mid-range.</dd></dl>
+  <a class="url" href="https://www.nps.gov/sand/">https://www.nps.gov/sand/</a></div>
+<div class="cite"><div class="org">Standard histories — Crédit Mobilier &amp; the "Indian Ring" <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">Railroad land-grant profiteering and Indian-agency supply fraud</div>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c12"><span class="num">12.</span>American Civil War (1861–65) <a class="up" href="#c12">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Dept. of Veterans Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" — Union deaths (battle 140,414; other 224,097; wounded 281,881)</div>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a></div>
+<div class="cite"><div class="org">J. David Hacker, <i>Civil War History</i> (2011) <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">"A Census-Based Count of the Civil War Dead" — upward revision to ~750,000</div>
+  <dl><dt>Backs</dt><dd>The 620,000–750,000 total-death range.</dd></dl>
+  <a class="url" href="https://www.journals.uchicago.edu/doi/10.1353/cwh.2011.0061">https://www.journals.uchicago.edu/doi/10.1353/cwh.2011.0061</a></div>
+<div class="cite"><div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"Costs of Major U.S. Wars" (RS22926) — Union $59.6B, Confederacy $20.1B (2011$)</div>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a></div>
+<div class="cite"><div class="org">National Park Service — Andersonville NHS; standard histories <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Andersonville POW deaths; the draft &amp; NYC Draft Riots; Jay Cooke war finance; "shoddy" &amp; the Hall Carbine Affair</div>
+  <a class="url" href="https://www.nps.gov/ande/">https://www.nps.gov/ande/</a></div>
+
+<h2 id="c13"><span class="num">13.</span>Spanish–American War (1898) <a class="up" href="#c13">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Dept. of Veterans Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" — Spanish–American War (battle 385; other 2,061; wounded 1,662)</div>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a></div>
+<div class="cite"><div class="org">U.S. State Dept. — Office of the Historian <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Spanish–American War, 1898; Treaty of Paris</div>
+  <a class="url" href="https://history.state.gov/milestones/1866-1898/spanish-american-war">https://history.state.gov/milestones/1866-1898/spanish-american-war</a></div>
+<div class="cite"><div class="org">Standard histories — the "embalmed beef" scandal <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">1899 Army (Dodge) Commission; Armour &amp; Co. ration controversy; armor-plate contracting</div>
+  <dl><dt>Note</dt><dd>Carnegie Steel was private; Bethlehem Steel later public.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c14"><span class="num">14.</span>Philippine–American War (1899–1902) <a class="up" href="#c14">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Philippine War; U.S. casualties (~4,200 dead)</div>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+<div class="cite"><div class="org">Academic histories <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">Filipino combatant &amp; civilian death estimates; the "water cure"; Samar campaign</div>
+  <dl><dt>Note</dt><dd>Civilian-death estimates (~200,000+) are contested and range widely.</dd></dl>
+  <a class="url" href="https://www.loc.gov/">https://www.loc.gov/</a></div>
+
+<h2 id="c15"><span class="num">15.</span>Boxer Rebellion (1899–1901) <a class="up" href="#c15">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. State Dept. — Office of the Historian <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Boxer Uprising; the Open Door &amp; the Eight-Nation Alliance</div>
+  <a class="url" href="https://history.state.gov/milestones/1899-1913/boxer-rebellion">https://history.state.gov/milestones/1899-1913/boxer-rebellion</a></div>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The China Relief Expedition — U.S. forces &amp; casualties</div>
+  <dl><dt>Note</dt><dd>Troop/casualty figures approximate; alliance contributions vary by source.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c16"><span class="num">16.</span>Banana Wars (1898–1934) <a class="up" href="#c16">&uarr;</a></h2>
+<div class="cite"><div class="org">USMC History Division <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Marine interventions in Haiti, the Dominican Republic, Nicaragua &amp; Cuba</div>
+  <a class="url" href="https://www.usmcu.edu/historydivision/">https://www.usmcu.edu/historydivision/</a></div>
+<div class="cite"><div class="org">Smedley D. Butler, "War Is a Racket" (1935) <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">First-hand account of corporate-driven interventions</div>
+  <dl><dt>Backs</dt><dd>The United Fruit / National City Bank profiteering framing.</dd></dl>
+  <a class="url" href="https://www.loc.gov/">https://www.loc.gov/</a></div>
+
+<h2 id="c17"><span class="num">17.</span>Mexican Border War (1910–19) <a class="up" href="#c17">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Punitive Expedition; the Columbus raid; 1st Aero Squadron</div>
+  <dl><dt>Backs</dt><dd>~10,000 troops; first U.S. combat use of aircraft &amp; trucks; approximate casualties.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c18"><span class="num">18.</span>World War I (1917–18) <a class="up" href="#c18">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Dept. of Veterans Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" — WWI (battle 53,402; other 63,114; wounded 204,002)</div>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a></div>
+<div class="cite"><div class="org">U.S. Senate — Nye Committee record <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Special Committee Investigating the Munitions Industry (1934–36)</div>
+  <dl><dt>Backs</dt><dd>DuPont earnings $5M (1914) → $82M (1918); "merchants of death"; Bethlehem Steel margins.</dd></dl>
+  <a class="url" href="https://www.senate.gov/about/powers-procedures/investigations.htm">https://www.senate.gov/about/powers-procedures/investigations.htm</a></div>
+<div class="cite"><div class="org">Congressional Research Service &amp; Congressional Record <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Cost of WWI (~$334B, 2011$); declaration-of-war vote (House 373–50; Senate 82–6)</div>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a></div>
+
+<h2 id="c19"><span class="num">19.</span>World War II (1941–45) <a class="up" href="#c19">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Dept. of Veterans Affairs &amp; DoD DCAS <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"America's Wars" — WWII (battle 291,557; other 113,842; wounded 670,846)</div>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a></div>
+<div class="cite"><div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"Costs of Major U.S. Wars" — WWII ~$4.1 trillion (constant 2011$), ~36% of GDP at peak</div>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a></div>
+<div class="cite"><div class="org">War Production Board / standard WWII contractor rankings <span class="tag t-ind">INDUSTRY</span></div>
+  <div class="title">Top U.S. prime contractors, 1940–45 (GM ~$13.8B; Curtiss-Wright ~$7B; Ford ~$5.3B…)</div>
+  <dl><dt>Note</dt><dd>Nominal-dollar prime-contract totals; the standard ranking of WWII war production.</dd></dl>
+  <a class="url" href="https://www.archives.gov/">https://www.archives.gov/</a></div>
+<div class="cite"><div class="org">Congressional Record &amp; standard histories <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Declaration of war vs. Japan (House 388–1; Senate 82–0); global death tolls; Hiroshima/Nagasaki &amp; internment</div>
+  <dl><dt>Note</dt><dd>National death tolls are scholarly estimates with wide ranges.</dd></dl>
+  <a class="url" href="https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan">https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan</a></div>
+
+<h2 id="c20"><span class="num">20.</span>Korean War (1950–53) <a class="up" href="#c20">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD Defense Casualty Analysis System &amp; VA <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Korean War U.S. deaths (36,574; 33,739 battle) &amp; wounded (103,284)</div>
+  <a class="url" href="https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties">https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties</a></div>
+<div class="cite"><div class="org">Congressional Research Service &amp; standard histories <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Cost (~$341B, 2011$); "police action" with no declaration; total/civilian death estimates; No Gun Ri</div>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a></div>
+
+<h2 id="c21"><span class="num">21.</span>Lebanon Crisis (1958) <a class="up" href="#c21">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History / State Dept. <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Blue Bat; the Eisenhower Doctrine</div>
+  <a class="url" href="https://history.state.gov/milestones/1953-1960/lebanon-and-jordan">https://history.state.gov/milestones/1953-1960/lebanon-and-jordan</a></div>
+
+<h2 id="c22"><span class="num">22.</span>Bay of Pigs (1961) <a class="up" href="#c22">&uarr;</a></h2>
+<div class="cite"><div class="org">CIA / National Security Archive <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Bay of Pigs operation — Brigade 2506 killed &amp; captured</div>
+  <a class="url" href="https://nsarchive.gwu.edu/briefing-book/cuba/2021-04-16/bay-pigs-60-years">https://nsarchive.gwu.edu/briefing-book/cuba/2021-04-16/bay-pigs-60-years</a></div>
+
+<h2 id="c23"><span class="num">23.</span>Vietnam War (1955–75) <a class="up" href="#c23">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD Defense Casualty Analysis System <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Vietnam U.S. deaths (58,220; 47,434 battle) &amp; wounded (153,303)</div>
+  <a class="url" href="https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties">https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties</a></div>
+<div class="cite"><div class="org">Congressional Record &amp; CRS <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Gulf of Tonkin Resolution vote (House 416–0; Senate 88–2); cost (~$738B, 2011$)</div>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a></div>
+<div class="cite"><div class="org">U.S. Army (Peers Inquiry) &amp; academic histories <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">My Lai Massacre; Operation Ranch Hand (Agent Orange); Vietnamese death estimates; aircraft production (UH-1, F-4, B-52)</div>
+  <dl><dt>Note</dt><dd>Vietnamese death estimates vary widely (~1.3–3.8M).</dd></dl>
+  <a class="url" href="https://www.archives.gov/research/military/vietnam-war">https://www.archives.gov/research/military/vietnam-war</a></div>
+
+<div class="cite"><div class="org">VA National Center for PTSD — NVVRS <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">National Vietnam Veterans Readjustment Study (PTSD 15.2% current; 30.9% lifetime); PTSD added to the DSM-III (1980); Vet Centers (1979)</div>
+  <a class="url" href="https://www.ptsd.va.gov/professional/articles/article-pdf/nvvrs_vol1.pdf">https://www.ptsd.va.gov/professional/articles/article-pdf/nvvrs_vol1.pdf</a></div>
+<div class="cite"><div class="org">Gallup — Vietnam public opinion <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">"Was it a mistake to send troops to Vietnam?" trend, 1965–1990 (24% → 60% → 74%)</div>
+  <a class="url" href="https://news.gallup.com/vault/191828/gallup-vault-hawks-doves-vietnam.aspx">https://news.gallup.com/vault/191828/gallup-vault-hawks-doves-vietnam.aspx</a></div>
+<div class="cite"><div class="org">Rosenheck et al. (Am. J. Public Health, 1991) &amp; CRS — veteran homelessness <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">"Vietnam-era and Vietnam combat veterans among the homeless"; CRS "Veterans and Homelessness" (RL34024)</div>
+  <dl><dt>Backs</dt><dd>~50% of homeless veterans were Vietnam-era vs. ~29% of all veterans; elevated homelessness risk among young veterans.</dd></dl>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RL/RL34024">https://crsreports.congress.gov/product/pdf/RL/RL34024</a></div>
+<div class="cite"><div class="org">National Archives &amp; standard histories — atrocities <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">My Lai (Peers Inquiry); the Phoenix Program; Tiger Force; the 1968 Huế Massacre; Viet Cong tactics</div>
+  <a class="url" href="https://www.archives.gov/research/military/vietnam-war">https://www.archives.gov/research/military/vietnam-war</a></div>
+
+<h2 id="c24"><span class="num">24.</span>Dominican Intervention (1965–66) <a class="up" href="#c24">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Power Pack — U.S. forces &amp; casualties</div>
+  <dl><dt>Note</dt><dd>Dominican death totals are estimates.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c25"><span class="num">25.</span>Lebanon (1982–84) <a class="up" href="#c25">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD / Long Commission report <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Multinational Force; the 1983 Beirut barracks bombing (241 killed)</div>
+  <a class="url" href="https://history.state.gov/milestones/1981-1988">https://history.state.gov/milestones/1981-1988</a></div>
+
+<h2 id="c26"><span class="num">26.</span>Grenada (1983) <a class="up" href="#c26">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Urgent Fury — U.S. &amp; opposing casualties</div>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c27"><span class="num">27.</span>Libya: El Dorado Canyon (1986) <a class="up" href="#c27">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD / U.S. State Dept. <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation El Dorado Canyon — the 1986 airstrikes on Libya</div>
+  <dl><dt>Note</dt><dd>Libyan casualty figures are contested.</dd></dl>
+  <a class="url" href="https://history.state.gov/milestones/1981-1988">https://history.state.gov/milestones/1981-1988</a></div>
+
+<h2 id="c28"><span class="num">28.</span>Panama: Just Cause (1989–90) <a class="up" href="#c28">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Just Cause — U.S. casualties; capture of Noriega</div>
+  <dl><dt>Note</dt><dd>Panamanian death tolls are disputed (official ~500 vs. higher NGO estimates).</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c29"><span class="num">29.</span>Gulf War (1990–91) <a class="up" href="#c29">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD DCAS &amp; Congressional Record <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">U.S. deaths (383; 148 battle); authorization vote (House 250–183; Senate 52–47)</div>
+  <a class="url" href="https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties">https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties</a></div>
+<div class="cite"><div class="org">CRS / DoD <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Cost (~$61B; ~$54B reimbursed by allies); first wide combat use of UAVs (RQ-2 Pioneer)</div>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RS/RS22926">https://crsreports.congress.gov/product/pdf/RS/RS22926</a></div>
+
+<h2 id="c30"><span class="num">30.</span>Somalia (1992–95) <a class="up" href="#c30">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD &amp; U.S. Army Center of Military History <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Restore Hope / UNOSOM; the Battle of Mogadishu (18 U.S. killed)</div>
+  <dl><dt>Note</dt><dd>Somali deaths in Mogadishu are estimates.</dd></dl>
+  <a class="url" href="https://www.history.army.mil/">https://www.history.army.mil/</a></div>
+
+<h2 id="c31"><span class="num">31.</span>Bosnia (1992–95) <a class="up" href="#c31">&uarr;</a></h2>
+<div class="cite"><div class="org">ICTY &amp; U.S. State Dept. <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Bosnian War; the Srebrenica genocide (~8,000); Operation Deliberate Force; Dayton</div>
+  <a class="url" href="https://history.state.gov/milestones/1993-2000/dayton">https://history.state.gov/milestones/1993-2000/dayton</a></div>
+
+<h2 id="c32"><span class="num">32.</span>Haiti (1994–95) <a class="up" href="#c32">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD / U.S. State Dept. <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Uphold Democracy (UN Res. 940); restoration of President Aristide</div>
+  <a class="url" href="https://history.state.gov/milestones/1993-2000/haiti">https://history.state.gov/milestones/1993-2000/haiti</a></div>
+
+<h2 id="c33"><span class="num">33.</span>Kosovo (1999) <a class="up" href="#c33">&uarr;</a></h2>
+<div class="cite"><div class="org">Congressional Record &amp; Human Rights Watch / ICTY <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Allied Force; the House's 213–213 tie; conflict &amp; bombing death estimates</div>
+  <dl><dt>Note</dt><dd>A key War Powers precedent — combat without congressional authorization.</dd></dl>
+  <a class="url" href="https://history.state.gov/milestones/1993-2000/kosovo">https://history.state.gov/milestones/1993-2000/kosovo</a></div>
+
+<h2 id="c34"><span class="num">34.</span>Afghanistan War (2001–21) <a class="up" href="#c34">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD DCAS &amp; Congressional Record <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">U.S. deaths (~2,400) &amp; wounded (~20,700); 2001 AUMF vote (House 420–1; Senate 98–0)</div>
+  <a class="url" href="https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties">https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties</a></div>
+<div class="cite"><div class="org">Watson Institute, Brown University — "Costs of War" <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">Afghanistan cost (~$2.3T) &amp; death breakdown (civilians, fighters, security forces, contractors)</div>
+  <a class="url" href="https://watson.brown.edu/costsofwar/figures">https://watson.brown.edu/costsofwar/figures</a></div>
+
+<div class="cite"><div class="org">Australia — IGADF "Brereton" Report &amp; courts <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Inquiry into Australian special-forces conduct in Afghanistan; the Ben Roberts-Smith findings</div>
+  <dl><dt>Backs</dt><dd>39 unlawful killings; the "blooding" practice; the 2023 civil-court findings against Roberts-Smith (who denies wrongdoing).</dd></dl>
+  <a class="url" href="https://www.defence.gov.au/about/reviews-inquiries/inspector-general-australian-defence-force-afghanistan-inquiry">https://www.defence.gov.au/about/reviews-inquiries/igadf-afghanistan-inquiry</a></div>
+<div class="cite"><div class="org">U.K. — Independent Inquiry relating to Afghanistan <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Public inquiry (Lord Justice Haddon-Cave) into alleged unlawful killings by U.K. special forces, 2010–13</div>
+  <a class="url" href="https://www.iia.independent-inquiry.uk/">https://www.iia.independent-inquiry.uk/</a></div>
+<div class="cite"><div class="org">U.S. courts-martial &amp; the 2019 pardons <span class="tag t-peer">PEER-REVIEWED</span></div>
+  <div class="title">Kandahar massacre (R. Bales, 16 killed); the Lorance &amp; Golsteyn pardons; Pat Tillman friendly-fire</div>
+  <a class="url" href="https://www.cambridge.org/core/journals/american-journal-of-international-law/article/issuing-several-pardons-president-trump-intervenes-in-proceedings-of-us-troops-charged-or-convicted-of-acts-amounting-to-war-crimes/D30879983AAD2710B0E42187F509E2F0">AJIL — Trump pardons of troops accused of war crimes</a></div>
+
+<h2 id="c35"><span class="num">35.</span>Iraq War (2003–11) <a class="up" href="#c35">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD DCAS &amp; Congressional Record <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">U.S. deaths (~4,490) &amp; wounded (~32,000); 2002 Iraq AUMF (House 296–133; Senate 77–23)</div>
+  <a class="url" href="https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties">https://dcas.dmdc.osd.mil/dcas/app/conflictCasualties</a></div>
+<div class="cite"><div class="org">Watson "Costs of War" &amp; Iraq Body Count <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">Cost (~$2T); documented Iraqi civilian deaths (~200,000+)</div>
+  <a class="url" href="https://www.iraqbodycount.org/">https://www.iraqbodycount.org/</a></div>
+<div class="cite"><div class="org">SIGIR / Commission on Wartime Contracting; Center for Public Integrity <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Halliburton/KBR LOGCAP &amp; oil contracts; ~$39.5B; ~52% of DoD Iraq contracts; $31–60B waste/fraud; Blackwater Nisour Square</div>
+  <a class="url" href="https://publicintegrity.org/national-security/halliburton-contracts-balloon/">https://publicintegrity.org/national-security/halliburton-contracts-balloon/</a></div>
+<div class="cite"><div class="org">Macrotrends — Halliburton (HAL) stock history <span class="tag t-ind">INDUSTRY</span></div>
+  <div class="title">Split-adjusted HAL year-end share prices, 2002–2012 (approximate)</div>
+  <dl><dt>Note</dt><dd>Verify exact closes via Macrotrends; values shown are approximate split-adjusted.</dd></dl>
+  <a class="url" href="https://www.macrotrends.net/stocks/charts/HAL/halliburton/stock-price-history">https://www.macrotrends.net/stocks/charts/HAL/halliburton/stock-price-history</a></div>
+
+<div class="cite"><div class="org">U.S. courts-martial &amp; reporting — Iraq war crimes <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">Abu Ghraib; Haditha; Mahmudiyah; Blackwater Nisour Square (convictions &amp; 2020 pardons); Eddie Gallagher (SEAL); "Collateral Murder"</div>
+  <dl><dt>Note</dt><dd>Gallagher was acquitted of murder (2019) and convicted only of posing with a corpse.</dd></dl>
+  <a class="url" href="https://www.cnn.com/2019/07/02/politics/eddie-gallagher-navy-seal-trial-verdict/">https://www.cnn.com/2019/07/02/politics/eddie-gallagher-navy-seal-trial-verdict/</a></div>
+
+<h2 id="c36"><span class="num">36.</span>Libya Intervention (2011) <a class="up" href="#c36">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD / U.S. State Dept. &amp; CRS War Powers reporting <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Odyssey Dawn / NATO Unified Protector (UN Res. 1973); the War Powers dispute</div>
+  <dl><dt>Note</dt><dd>No congressional authorization; the "no hostilities" interpretation was widely contested.</dd></dl>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RL/RL33532">https://crsreports.congress.gov/product/pdf/RL/RL33532</a></div>
+
+<h2 id="c37"><span class="num">37.</span>War Against ISIS (2014–present) <a class="up" href="#c37">&uarr;</a></h2>
+<div class="cite"><div class="org">DoD — Operation Inherent Resolve <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The campaign vs. ISIS; airstrikes; collapse of the territorial caliphate (2019)</div>
+  <a class="url" href="https://www.centcom.mil/OPERATIONS-AND-EXERCISES/OPERATION-INHERENT-RESOLVE/">https://www.centcom.mil/OPERATIONS-AND-EXERCISES/OPERATION-INHERENT-RESOLVE/</a></div>
+<div class="cite"><div class="org">Airwars <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">Civilian-harm monitoring from coalition strikes in Iraq &amp; Syria</div>
+  <dl><dt>Note</dt><dd>Fought under the 2001/2002 AUMFs; civilian-harm estimates are contested.</dd></dl>
+  <a class="url" href="https://airwars.org/">https://airwars.org/</a></div>
+
+<h2 id="c38"><span class="num">38.</span>Conscription &amp; the Draft <a class="up" href="#c38">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. Selective Service System <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Induction statistics by era; history of the draft &amp; registration</div>
+  <dl><dt>Backs</dt><dd>WWII ~10M; WWI ~2.8M; Vietnam era ~1.9M; Korea ~1.5M; 1973 end of the draft; current registration.</dd></dl>
+  <a class="url" href="https://www.sss.gov/history-and-records/induction-statistics/">https://www.sss.gov/history-and-records/induction-statistics/</a></div>
+<div class="cite"><div class="org">National Archives &amp; standard histories <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Civil War draft &amp; the 1863 New York Draft Riots; $300 commutation; the 1969 Vietnam lottery</div>
+  <a class="url" href="https://www.archives.gov/">https://www.archives.gov/</a></div>
+
+<h2 id="c39"><span class="num">39.</span>War Powers &amp; Authorizations <a class="up" href="#c39">&uarr;</a></h2>
+<div class="cite"><div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"Declarations of War and Authorizations for the Use of Military Force"; the War Powers Resolution (1973)</div>
+  <dl><dt>Backs</dt><dd>The five formal declarations; AUMFs; the 60-day clock.</dd></dl>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/RL/RL31133">https://crsreports.congress.gov/product/pdf/RL/RL31133</a></div>
+<div class="cite"><div class="org">Congressional Record / House &amp; Senate Journals <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Recorded votes: 1812, 1846, 1917, 1941, 1964 (Tonkin), 1991 (Gulf), 2001 &amp; 2002 (AUMFs)</div>
+  <a class="url" href="https://www.congress.gov/">https://www.congress.gov/</a></div>
+
+<h2 id="c40"><span class="num">40.</span>Drones &amp; UAVs <a class="up" href="#c40">&uarr;</a></h2>
+<div class="cite"><div class="org">Bureau of Investigative Journalism &amp; New America <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">U.S. covert drone-strike datasets (Pakistan, Yemen, Somalia); strikes by president; casualty estimates</div>
+  <dl><dt>Note</dt><dd>Estimates; official U.S. figures are lower and disputed.</dd></dl>
+  <a class="url" href="https://www.thebureauinvestigates.com/projects/drone-war">https://www.thebureauinvestigates.com/projects/drone-war</a></div>
+<div class="cite"><div class="org">U.S. Air Force / DoD <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">UAV development — Firebee, RQ-2 Pioneer, MQ-1 Predator, MQ-9 Reaper, RQ-4 Global Hawk</div>
+  <a class="url" href="https://www.af.mil/About-Us/Fact-Sheets/">https://www.af.mil/About-Us/Fact-Sheets/</a></div>
+
+<h2 id="c41"><span class="num">41.</span>Conclusion <a class="up" href="#c41">&uarr;</a></h2>
+<div class="cite"><div class="org">Synthesis — VA, DoD DCAS, CRS &amp; the Watson Institute <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Cross-war totals: ~1.3M U.S. deaths; WWII costliest; ~$8T post-9/11; 5 declared wars; 1973 all-volunteer force</div>
+  <dl><dt>Note</dt><dd>Draws on the sources cited throughout this dossier (see each conflict's section).</dd></dl>
+  <a class="url" href="https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf">https://www.va.gov/opa/publications/factsheets/fs_americas_wars.pdf</a></div>
+
+<h2 id="c42"><span class="num">42.</span>U.S.–Iran Conflict &amp; Shadow War (1979–present) <a class="up" href="#c42">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. State Dept. — Office of the Historian <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">The Iran Hostage Crisis, 1979–1981</div>
+  <a class="url" href="https://history.state.gov/milestones/1977-1980/iran-hostage-crisis">https://history.state.gov/milestones/1977-1980/iran-hostage-crisis</a></div>
+<div class="cite"><div class="org">Naval History &amp; Heritage Command <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">Operation Praying Mantis (1988 Tanker War); USS <i>Vincennes</i> / Iran Air 655 (290 killed)</div>
+  <a class="url" href="https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/middle-east.html">https://www.history.navy.mil/</a></div>
+<div class="cite"><div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"U.S. Strikes on Nuclear Sites in Iran" (IN12571, 2025); the 2020 Soleimani strike; "U.S. Conflict with Iran" (2026)</div>
+  <dl><dt>Backs</dt><dd>June 2025 strike on Fordow/Natanz/Isfahan (≈125 aircraft, 7 B-2, 14 GBU-57, ~75 munitions); 2020 Soleimani drone strike.</dd>
+      <dt>Note</dt><dd>The 2025–26 events are recent, contested, and still-evolving; treat specific claims/figures as provisional.</dd></dl>
+  <a class="url" href="https://www.congress.gov/crs-product/IN12571">https://www.congress.gov/crs-product/IN12571</a></div>
+
+<div class="cite"><div class="org">CRS &amp; UK House of Commons Library — the 2026 ceasefire &amp; the Strait of Hormuz <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"U.S.–Iran Ceasefire and Negotiations" (CRS IN12678); "Iran Conflict and the Strait of Hormuz: Impacts on Oil, Gas…" (CRS R45281); HoC Library briefings on reopening the strait</div>
+  <dl><dt>Backs</dt><dd>The Apr 7–8, 2026 ceasefire; the June 14 MoU (signing set for June 19, 2026; 60-day path); Hormuz closure/reopening and safe-navigation terms; ~one-fifth of world oil transits the strait; the ~$92 Brent figure.</dd>
+      <dt>Note</dt><dd>Recent and evolving; treat specific terms and figures as provisional.</dd></dl>
+  <a class="url" href="https://www.congress.gov/crs-product/IN12678">https://www.congress.gov/crs-product/IN12678</a></div>
+
+<h2 id="c43"><span class="num">43.</span>Ukraine — U.S. Proxy War (2022–present) <a class="up" href="#c43">&uarr;</a></h2>
+<div class="cite"><div class="org">U.S. State Dept. — Bureau of Political-Military Affairs <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"U.S. Security Cooperation with Ukraine" (military assistance ~$66.9B since Feb 2022)</div>
+  <a class="url" href="https://www.state.gov/u-s-security-cooperation-with-ukraine/">https://www.state.gov/u-s-security-cooperation-with-ukraine/</a></div>
+<div class="cite"><div class="org">Congressional Research Service <span class="tag t-fed">GOVERNMENT</span></div>
+  <div class="title">"U.S. Security Assistance to Ukraine" (IF12040); supplemental appropriations &amp; votes</div>
+  <dl><dt>Backs</dt><dd>~$175B total U.S. commitment; the Apr 2024 $61B package (House 311–112; Senate 79–18).</dd></dl>
+  <a class="url" href="https://crsreports.congress.gov/product/pdf/IF/IF12040">https://crsreports.congress.gov/product/pdf/IF/IF12040</a></div>
+<div class="cite"><div class="org">UK Ministry of Defence &amp; UN OHCHR <span class="tag t-org">RESEARCH ORG</span></div>
+  <div class="title">Russian casualty estimates (UK MoD, 2026); Ukrainian civilian casualties (UN documented)</div>
+  <dl><dt>Note</dt><dd>Russia &gt;1,000,000 killed+wounded (UK MoD est.); Ukrainian military losses contested; civilian deaths are UN-documented minimums. Figures evolve.</dd></dl>
+  <a class="url" href="https://www.ohchr.org/en/countries/ukraine">https://www.ohchr.org/en/countries/ukraine</a></div>
+
+<!-- @@INSERT_CITATIONS@@ -->
+
+<footer>
+  <p><b>&copy; 2026 PilotsDiscretion. All rights reserved.</b></p>
+  <p><b>Disclaimer.</b> This dossier is provided for informational and educational purposes only, on an &ldquo;as is&rdquo; basis, without warranties of any kind. War casualty, cost, and munitions figures are frequently estimates that are contested and revised across sources; contractor financials reflect the filings cited and may be superseded. Nothing here is professional, legal, or policy advice. Always verify figures against the cited primary sources before relying on them. To the maximum extent permitted by law, PilotsDiscretion and contributors accept no liability for any loss or damage arising from use of, or reliance on, this document. Use is at your own risk.</p>
+  <p>Back to the dashboard: <a href="History_of_War_in_America.html">History of War in America From 1775–2026</a>.</p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# History of War in America, 1775–2025
+# History of War in America, 1775–2026
 
 An interactive, single-page data visualization of every major U.S. war and armed conflict from the Revolution through the post-9/11 wars to the proxy and shadow conflicts in Ukraine and with Iran. Each conflict has its own tab covering the years of the war, a background passage on how and why it began and who the main actors were, both-sides casualties and deaths, munitions and forces, war crimes and atrocities, costs, the congressional authorization (or lack of one) with voting records, conscription, and the contractors who profited. Cross-cutting tabs cover conscription and the draft, war powers and authorizations, and the rise of drone warfare. Every figure is sourced to a companion dossier.
 
