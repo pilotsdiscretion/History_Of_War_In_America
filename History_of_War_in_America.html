@@ -3138,6 +3138,31 @@
     <tr><td><b>AeroVironment</b></td><td>Switchblade loitering munitions; small UAVs</td><td>Publicly traded; "kamikaze" drones widely exported.</td></tr>
   </tbody></table>
   <div class="data-note">Strike counts and casualty ranges are estimates from the Bureau of Investigative Journalism and New America; the U.S. government's own figures are lower and disputed. "Outside conventional war zones" refers to Pakistan, Yemen, and Somalia.</div>
+
+  <div class="background" style="border-left-color:#d05a5a">
+    <h4>🇮🇷 Iranian Drones &amp; the Shahed Revolution</h4>
+    <p><strong>From the Iran–Iraq War to a drone superpower.</strong> Iran began building drones during the 1980s <strong>Iran–Iraq War</strong>; its <strong>Mohajer</strong> and <strong>Ababil</strong> families were among the world's first battlefield UAVs. Cut off from Western arms by sanctions, Tehran turned drones into a national specialty — fielding the jet-powered <strong>Karrar</strong> (2010) and the Reaper-like <strong>Shahed-129</strong> — and became a major exporter to Russia and to proxies such as the Houthis and Hezbollah.</p>
+    <p><strong>Reverse-engineering America.</strong> In <strong>December 2011</strong> Iran brought down a U.S. <strong>RQ-170 Sentinel</strong> stealth drone nearly intact and spent two years copying it, producing the <strong>Saegheh</strong> and <strong>Shahed-171/191</strong>. Iran's program was built in part on cloned American technology.</p>
+    <p><strong>How the Shahed-136 works.</strong> The <strong>Shahed-136</strong> (Russia's <strong>Geran-2</strong>) is a <strong>loitering munition</strong> — a "one-way attack" or kamikaze drone nicknamed the "<strong>poor man's cruise missile</strong>." A delta-wing airframe (~3.5 m, ~200 kg) is boosted off a rack by a jettisoned rocket, then cruises on a cheap ~50-hp <strong>moped-style piston engine</strong> (its telltale buzz) along a <strong>pre-programmed GPS route</strong> before diving onto its target and detonating. It is slow (~185 km/h) but ranges up to <strong>~2,500 km</strong>, carries a <strong>~50 kg warhead</strong> (up to ~90 kg in Russian variants), and is fired in <strong>swarms to saturate air defenses</strong>.</p>
+    <p><strong>The cost that changes war.</strong> Each Shahed costs only about <strong>$20,000–$50,000</strong>, yet forces defenders to expend interceptor missiles worth hundreds of thousands or millions of dollars apiece — an "exchange-rate" crisis for air defense. Russia now mass-produces them from Iranian blueprints and launches them by the hundreds in a single night.</p>
+    <p><strong>Full circle — America clones the Shahed.</strong> In 2026 the story came full circle: U.S. contractor <strong>SpektreWorks</strong> built the <strong>LUCAS (FLM-136)</strong> — a one-way attack drone <strong>reverse-engineered from the Shahed-136</strong>, slightly smaller and costing about <strong>$35,000</strong> (versus a ~$30 million Reaper). CENTCOM says LUCAS saw its <strong>first combat use in the February 2026 strikes on Iran</strong> — giving Tehran "a taste of its own medicine" — and the Pentagon has put roughly <strong>$1 billion</strong> behind cheap, mass-producible attack drones. <a class="evt-cite" href="Sources_and_Citations.html#c40" target="_blank" rel="noopener" title="Sources">source ↗</a></p>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-box"><div class="stat-value">~2,500 km</div><div class="stat-label">Shahed-136 range</div><div class="stat-change">~185 km/h; ~50-hp piston engine</div></div>
+    <div class="stat-box"><div class="stat-value">~50 kg</div><div class="stat-label">Shahed-136 warhead</div><div class="stat-change">up to ~90 kg (Russian Geran-2)</div></div>
+    <div class="stat-box"><div class="stat-value">~$20–50k</div><div class="stat-label">Cost per Shahed-136</div><div class="stat-change">"poor man's cruise missile"</div></div>
+    <div class="stat-box"><div class="stat-value">$35k</div><div class="stat-label">U.S. LUCAS clone (SpektreWorks)</div><div class="stat-change">first used vs. Iran, Feb 2026</div></div>
+  </div>
+
+  <div class="chart-grid">
+    <div class="chart-card"><h3>The Economics of the Shahed</h3><div class="subtitle">approximate unit cost, US$, log scale — a cheap drone vs. the cruise missiles &amp; Reapers it substitutes for <a class="evt-cite" href="Sources_and_Citations.html#c40" target="_blank" rel="noopener" title="Sources">source ↗</a></div><div class="chart-wrapper"><canvas id="iranDroneCost"></canvas></div></div>
+    <div class="chart-card"><h3>Iranian Drones by Range</h3><div class="subtitle">approximate maximum range (km) of selected Iranian UAVs <a class="evt-cite" href="Sources_and_Citations.html#c40" target="_blank" rel="noopener" title="Sources">source ↗</a></div><div class="chart-wrapper"><canvas id="iranRange"></canvas></div></div>
+  </div>
+  <div class="chart-grid single">
+    <div class="chart-card"><h3>Warhead / Payload</h3><div class="subtitle">approximate explosive payload (kg) of Iran's one-way attack drones; Russian Geran-2 variants carry more <a class="evt-cite" href="Sources_and_Citations.html#c40" target="_blank" rel="noopener" title="Sources">source ↗</a></div><div class="chart-wrapper"><canvas id="iranPayload"></canvas></div></div>
+  </div>
+  <div class="data-note">Iranian and Russian drone specifications and costs are approximate and vary by source and variant (Shahed-136 cost estimates run ~$20k–$50k; Russian-built Geran-2 warheads are reportedly heavier). LUCAS/FLM-136 details per CENTCOM and manufacturer statements (2026). Figures are recent and evolving.</div>
   <div class="background" style="border-left-color:#6abf69">
     <h4>Legacy &amp; Why It Matters Today</h4>
     <p><strong>Lowering the threshold for force.</strong> Armed drones let the U.S. kill from afar with no pilot at risk — enabling a vast campaign of <strong>targeted strikes</strong> outside declared war zones (Pakistan, Yemen, Somalia) and raising hard questions about civilian casualties and due process, including the 2011 killing of U.S. citizen Anwar al-Awlaki.</p>
@@ -3328,6 +3353,31 @@
   </tbody></table>
 
   <div class="data-note">U.S. aid figures from the State Dept. ("U.S. Security Cooperation with Ukraine") and CRS, through early 2025; the ~$175B total reflects appropriations (not all disbursed). Russian casualties per UK Ministry of Defence estimates (2026); Ukrainian military losses are official/− estimated and contested; Ukrainian civilian deaths are UN-documented minimums and are widely believed to be higher. The war is ongoing and figures evolve.</div>
+
+  <div class="background" style="border-left-color:#5b9bd5">
+    <h4>🛩️ FPV Drones &amp; the Drone War</h4>
+    <p><strong>A new kind of war.</strong> The Russia–Ukraine war is the first major conflict dominated by cheap <strong>first-person-view (FPV) drones</strong> — racing quadcopters carrying an explosive charge, flown into a target by a pilot watching a live feed through goggles. Costing as little as <strong>$400–$500</strong>, an FPV drone can destroy a <strong>$4.5 million tank</strong>, upending the economics of war.</p>
+    <p><strong>Industrial scale.</strong> Both sides now build drones by the million. Ukraine made ~2.2 million UAVs in 2024 (about 1.5M of them FPV) and contracted for roughly <strong>4.5 million FPV drones in 2025</strong>, with capacity reportedly exceeding <strong>8 million a year by 2026</strong> — simple-FPV output jumped from ~20,000 to ~200,000 per month. Russia, which built ~1.4M drones in 2024, planned ~2 million FPVs (3–4M drones in total) for 2025.</p>
+    <p><strong>The decisive weapon.</strong> Ukraine's National Security and Defense Council says FPV drones now inflict roughly <strong>60% of Russia's equipment losses</strong>, and unmanned systems account for an estimated <strong>60–80% of all battlefield casualties</strong> — more than artillery. Ukraine's drone units report striking over <strong>350,000 Russian targets</strong>.</p>
+    <p><strong>The jamming arms race.</strong> Because radio-controlled drones can be defeated by <strong>electronic warfare</strong>, both sides turned to <strong>fiber-optic FPV drones</strong> that unspool a hair-thin cable as they fly — immune to jamming, with crystal-clear video and ranges past <strong>30 km</strong> (a Ukrainian winged FPV struck 102 km behind the line in 2026). The result is a drone-dominated "<strong>kill zone</strong>" reaching ~10–15 km on either side of the front — widening toward 40 km — where almost nothing can move in the open.</p>
+    <p><strong>The U.S. is watching.</strong> Ukraine's drone revolution reshaped Pentagon thinking: the 2023 <strong>Replicator</strong> initiative aimed to field thousands of cheap, "attritable" autonomous drones (though it has lagged its targets), and the lessons of FPV warfare now drive U.S. and NATO procurement. <a class="evt-cite" href="Sources_and_Citations.html#c43" target="_blank" rel="noopener" title="Sources">source ↗</a></p>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-box"><div class="stat-value">~4.5M</div><div class="stat-label">FPV drones Ukraine contracted for in 2025</div><div class="stat-change">capacity &gt;8M/yr by 2026</div></div>
+    <div class="stat-box"><div class="stat-value">~$400–500</div><div class="stat-label">Cost of one FPV drone</div><div class="stat-change">vs. the ~$4.5M tank it can kill</div></div>
+    <div class="stat-box"><div class="stat-value">~60%</div><div class="stat-label">Of Russian equipment losses from FPV drones</div><div class="stat-change">UAS ~60–80% of all casualties</div></div>
+    <div class="stat-box"><div class="stat-value">~10–15 km</div><div class="stat-label">Depth of the drone "kill zone"</div><div class="stat-change">widening toward 40 km</div></div>
+  </div>
+
+  <div class="chart-grid">
+    <div class="chart-card"><h3>Ukraine FPV Drone Output</h3><div class="subtitle">FPV drones per year — ~1.5M (2024) to ~4.5M contracted (2025) and &gt;8M capacity (2026); approximate <a class="evt-cite" href="Sources_and_Citations.html#c43" target="_blank" rel="noopener" title="Sources">source ↗</a></div><div class="chart-wrapper"><canvas id="ukrFpv"></canvas></div></div>
+    <div class="chart-card"><h3>FPV Production: Ukraine vs. Russia</h3><div class="subtitle">FPV drones per year, approximate — 2024 (actual) vs 2025 (planned/contracted) <a class="evt-cite" href="Sources_and_Citations.html#c43" target="_blank" rel="noopener" title="Sources">source ↗</a></div><div class="chart-wrapper"><canvas id="ukrVsRu"></canvas></div></div>
+  </div>
+  <div class="chart-grid">
+    <div class="chart-card"><h3>The $500 Drone vs. the $4.5M Tank</h3><div class="subtitle">approximate unit cost, US$, log scale — the asymmetry driving the drone war <a class="evt-cite" href="Sources_and_Citations.html#c43" target="_blank" rel="noopener" title="Sources">source ↗</a></div><div class="chart-wrapper"><canvas id="ukrFpvCost"></canvas></div></div>
+    <div class="chart-card"><h3>Share of Russian Equipment Losses</h3><div class="subtitle">FPV drones inflict ~60% of Russia's equipment losses — Ukraine NSDC (est.; contested) <a class="evt-cite" href="Sources_and_Citations.html#c43" target="_blank" rel="noopener" title="Sources">source ↗</a></div><div class="chart-wrapper"><canvas id="ukrDroneShare"></canvas></div></div>
+  </div>
 
   <div class="background" style="border-left-color:#6abf69">
     <h4>Outcome &amp; Lasting Impact</h4>
@@ -3967,6 +4017,23 @@ lineChart('afghTroops', [2001,2003,2006,2009,2010,2011,2012,2014,2016,2018,2020,
 mkBar('afghEquip', ['Ground vehicles','Aircraft (78)','Small arms (316,260)','Other (ISR, night-vision, comms)','Air-to-ground munitions'],
   [4120, 923, 512, 1558, 7], [CRIMSON,CRIMSON,CRIMSON,CRIMSON,CRIMSON],
   {horizontal:true, log:true, unit:'M', axisTitle:'Estimated value left behind, US$ millions (log scale)'});
+// ═══════════════ UKRAINE — FPV drone war ═══════════════
+mkBar('ukrFpv', ['2024','2025 (contracted)','2026 (capacity)'], [1.5, 4.5, 8], [NAVY,GOLD,GOLD],
+  {unit:'M', axisTitle:'Ukraine FPV drones per year (millions)'});
+mkGroupedBar('ukrVsRu', ['2024','2025'],
+  [{label:'Ukraine (FPV)', data:[1.5,4.5], color:NAVY},{label:'Russia (FPV)', data:[1.0,2.0], color:CRIMSON}],
+  {unit:'M', yTitle:'FPV drones per year (millions)'});
+mkBar('ukrFpvCost', ['FPV drone (~$500)','BMP-3 IFV (~$3M)','T-90M tank (~$4.5M)'], [500, 3000000, 4500000],
+  [GOLD,CRIMSON,CRIMSON], {horizontal:true, log:true, unit:'', axisTitle:'approx. unit cost, US$ (log scale)'});
+mkDoughnut('ukrDroneShare', ['FPV drones','Other causes'], [60,40], [GOLD, GRAY], {pct:true});
+// ═══════════════ IRANIAN DRONES & THE SHAHED ═══════════════
+mkBar('iranDroneCost', ['Shahed-136 (Iran)','LUCAS / FLM-136 (U.S. clone)','Tomahawk cruise missile','MQ-9 Reaper'],
+  [40000, 35000, 1900000, 30000000], [CRIMSON,NAVY,GRAY,GRAY],
+  {horizontal:true, log:true, unit:'', axisTitle:'approx. unit cost, US$ (log scale)'});
+mkBar('iranRange', ['Mohajer-6','Karrar','Shahed-129','Shahed-136'], [200,1000,1700,2500], CRIMSON,
+  {horizontal:true, unit:' km', axisTitle:'approx. maximum range (km)'});
+mkBar('iranPayload', ['Shahed-131','Mohajer-6 (ordnance)','Shahed-136','Geran-2 (Russian)'], [15,40,50,90],
+  [CRIMSON,CRIMSON,CRIMSON,NAVY], {horizontal:true, unit:' kg', axisTitle:'approx. warhead / payload (kg)'});
 // @@INSERT_CHART_JS@@
 
 // ═══════════════ CHART ZOOM ═══════════════
